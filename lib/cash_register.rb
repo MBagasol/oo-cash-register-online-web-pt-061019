@@ -22,7 +22,7 @@ class CashRegister
   end
   
   def items 
-    @items
+    @items[add_item]
   end
   
   
