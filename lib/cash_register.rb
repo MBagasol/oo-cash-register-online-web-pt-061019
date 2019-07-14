@@ -22,7 +22,7 @@ class CashRegister
   end
   
   def items 
-    @items
+    @items.each {|item| item << @items}
   end
   
   
